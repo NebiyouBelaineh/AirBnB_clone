@@ -1,0 +1,66 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+ .locations {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    margin: 0 0;
+ }
+ .amenities {
+   display: block;
+   float: left;
+   height: 100%;
+   width: 25%;
+   margin: 0 0;
+}
+ h2 {
+   font-size: 16px;
+   padding-top: 10px;
+   margin-bottom: 0;
+   margin-top: 0;
+ }
+ h3 {
+    font-weight: 600;
+    margin: 0 60px;
+    margin-top: 12px;
+ }
+ h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 60px;
+
+ } 
+ .locations:hover .popover {
+   display: block;
+ }
+ .amenities:hover .popover {
+   display: block;
+ }
+ .popover {
+    /* display: none; */
+    border: 1px solid #DDDDDD;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
+ .popover h2 {
+   padding-left: 25px;
+   padding-bottom: 0;
+   padding-top: 10px;
+   /* padding: 40px 0 0 30px; */
+ }
+ .popover ul {
+   margin-top: 0;
+   padding-left: 41px;
+   list-style-type: none;
+ }
